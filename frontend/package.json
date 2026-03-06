@@ -1,0 +1,38 @@
+{
+  "name": "lms-ui",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "check-node": "node -e \"const major = Number(process.versions.node.split('.')[0]); if (major < 20) { console.error('Unsupported Node.js version for this project: ' + process.version); console.error('Use Node.js 20+ (22 LTS recommended), then reinstall dependencies.'); process.exit(1); }\"",
+    "dev": "npm run check-node && vite",
+    "build": "npm run check-node && vite build",
+    "lint": "eslint .",
+    "preview": "npm run check-node && vite preview",
+    "api": "npm run check-node && json-server db.json --port 3001"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.1.6",
+    "axios": "^1.9.0",
+    "date-fns": "^4.1.0",
+    "framer-motion": "^12.11.3",
+    "lucide-react": "^0.510.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-hot-toast": "^2.5.2",
+    "react-router-dom": "^7.6.0",
+    "tailwindcss": "^4.1.6"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.25.0",
+    "@types/react": "^19.1.2",
+    "@types/react-dom": "^19.1.2",
+    "@vitejs/plugin-react": "^4.4.1",
+    "eslint": "^9.25.0",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.19",
+    "globals": "^16.0.0",
+    "json-server": "^1.0.0-beta.3",
+    "vite": "^6.3.5"
+  }
+}

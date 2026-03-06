@@ -1,0 +1,101 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "title": "React Basics",
+      "description": "Learn the fundamentals of React including components, props, state, and hooks. Build your first React application from scratch.",
+      "instructor": "Sarah Johnson",
+      "duration": "5 hours",
+      "thumbnail": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=400&h=250&fit=crop",
+      "category": "Web Development",
+      "level": "Beginner",
+      "lessons": [
+        { "id": 1, "title": "Introduction to React", "duration": "15 min" },
+        { "id": 2, "title": "Components and JSX", "duration": "25 min" },
+        { "id": 3, "title": "Props and State", "duration": "30 min" },
+        { "id": 4, "title": "Hooks Deep Dive", "duration": "45 min" },
+        { "id": 5, "title": "Building Your First App", "duration": "60 min" }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "JavaScript Mastery",
+      "description": "Master JavaScript from basics to advanced concepts. Covers ES6+, async programming, and modern patterns.",
+      "instructor": "Mike Chen",
+      "duration": "12 hours",
+      "thumbnail": "https://images.unsplash.com/photo-1579468118864-1b9ea3c0db4a?w=400&h=250&fit=crop",
+      "category": "Programming",
+      "level": "Intermediate",
+      "lessons": [
+        { "id": 1, "title": "Variables and Data Types", "duration": "20 min" },
+        { "id": 2, "title": "Functions and Scope", "duration": "35 min" },
+        { "id": 3, "title": "Arrays and Objects", "duration": "40 min" },
+        { "id": 4, "title": "Async/Await", "duration": "50 min" },
+        { "id": 5, "title": "Design Patterns", "duration": "55 min" }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Node.js Backend Development",
+      "description": "Build scalable backend applications with Node.js. Learn Express, databases, and API design.",
+      "instructor": "Emily Davis",
+      "duration": "8 hours",
+      "thumbnail": "https://images.unsplash.com/photo-1627398242454-45a1465c2479?w=400&h=250&fit=crop",
+      "category": "Backend",
+      "level": "Intermediate",
+      "lessons": [
+        { "id": 1, "title": "Node.js Fundamentals", "duration": "30 min" },
+        { "id": 2, "title": "Express Framework", "duration": "45 min" },
+        { "id": 3, "title": "REST API Design", "duration": "50 min" },
+        { "id": 4, "title": "Database Integration", "duration": "60 min" }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "CSS & Tailwind",
+      "description": "Modern CSS techniques and Tailwind CSS for rapid UI development. Create beautiful, responsive designs.",
+      "instructor": "Alex Rivera",
+      "duration": "6 hours",
+      "thumbnail": "https://images.unsplash.com/photo-1507721999472-8ed4421c4af2?w=400&h=250&fit=crop",
+      "category": "Design",
+      "level": "Beginner",
+      "lessons": [
+        { "id": 1, "title": "CSS Fundamentals", "duration": "25 min" },
+        { "id": 2, "title": "Flexbox and Grid", "duration": "40 min" },
+        { "id": 3, "title": "Tailwind Setup", "duration": "20 min" },
+        { "id": 4, "title": "Utility-First Design", "duration": "45 min" }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Python for Data Science",
+      "description": "Introduction to Python programming for data analysis. Pandas, NumPy, and data visualization.",
+      "instructor": "Dr. Lisa Wang",
+      "duration": "10 hours",
+      "thumbnail": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=400&h=250&fit=crop",
+      "category": "Data Science",
+      "level": "Beginner",
+      "lessons": [
+        { "id": 1, "title": "Python Basics", "duration": "30 min" },
+        { "id": 2, "title": "Pandas Introduction", "duration": "45 min" },
+        { "id": 3, "title": "Data Visualization", "duration": "50 min" },
+        { "id": 4, "title": "Real-world Projects", "duration": "90 min" }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "TypeScript Essentials",
+      "description": "Add type safety to your JavaScript projects. Learn TypeScript from scratch and integrate with React.",
+      "instructor": "David Kim",
+      "duration": "7 hours",
+      "thumbnail": "https://images.unsplash.com/photo-1516116216624-53e697fedbea?w=400&h=250&fit=crop",
+      "category": "Web Development",
+      "level": "Intermediate",
+      "lessons": [
+        { "id": 1, "title": "Types and Interfaces", "duration": "35 min" },
+        { "id": 2, "title": "Generics", "duration": "40 min" },
+        { "id": 3, "title": "TypeScript with React", "duration": "50 min" }
+      ]
+    }
+  ]
+}
